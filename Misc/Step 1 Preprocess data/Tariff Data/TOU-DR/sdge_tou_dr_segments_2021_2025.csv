@@ -1,0 +1,12 @@
+year,start_date,end_date,source_pdf,sheet1_page,format,tou_rate_kind,minimum_bill_$/day,base_services_charge_$/day,summer_on_peak_$/kwh,summer_off_peak_$/kwh,summer_super_off_peak_$/kwh,winter_on_peak_$/kwh,winter_off_peak_$/kwh,winter_super_off_peak_$/kwh
+2021,2021-03-01,2021-05-31,2021.pdf,1,total_rates_with_min_bill,total_rate_$/kwh,0.345,,0.5028,0.44126,0.38033,0.39335,0.38377,0.37315
+2021,2021-06-01,2021-10-31,2021.pdf,2,total_rates_with_min_bill,total_rate_$/kwh,0.345,,0.48997,0.42843,0.3675,0.41321,0.40363,0.39301
+2021,2021-11-01,2021-12-31,2021.pdf,3,total_rates_with_min_bill,total_rate_$/kwh,0.345,,0.48879,0.43069,0.36772,0.47083,0.42001,0.40527
+2022,2022-01-01,2022-05-31,2022.pdf,1,total_rates_with_min_bill,total_rate_$/kwh,0.35,,0.5665,0.49232,0.41194,0.54434,0.47948,0.46066
+2022,2022-06-01,2022-12-31,2022.pdf,2,total_rates_with_min_bill,total_rate_$/kwh,0.35,,0.56473,0.4935,0.4163,0.54345,0.48116,0.46309
+2023,2023-01-01,2023-12-31,2023.pdf,1,total_rates_with_min_bill,total_rate_$/kwh,0.38,,0.66552,0.56906,0.46451,0.63607,0.55171,0.52724
+2024,2024-01-01,2024-02-29,2024.pdf,1,total_rates_with_min_bill,total_rate_$/kwh,0.392,,0.54414,0.47588,0.40188,0.52742,0.46772,0.4504
+2024,2024-03-01,2024-12-31,2024.pdf,2,total_rates_with_min_bill,total_rate_$/kwh,0.392,,0.5701,0.5017,0.42756,0.55334,0.49353,0.47617
+2025,2025-02-01,2025-05-31,2025.pdf,1,total_rates_with_min_bill,total_rate_$/kwh,0.402,,0.57611,0.50457,0.42703,0.55858,0.49602,0.47787
+2025,2025-06-01,2025-09-30,2025.pdf,2,total_rates_with_min_bill,total_rate_$/kwh,0.402,,0.59908,0.52754,0.45,0.58155,0.51899,0.50084
+2025,2025-10-01,2025-12-31,2025.pdf,3,bsc_plus_energy,energy_charge_$/kwh,,0.79343,0.53462,0.46308,0.38554,0.51709,0.45453,0.43638
