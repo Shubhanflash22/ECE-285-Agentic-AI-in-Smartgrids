@@ -1,0 +1,86 @@
+# ─────────────────────────────────────────────────────────────
+# LLM Workflow – Configuration File
+# Copy this file, fill in your paths, and run:
+#   python workflow.py --config config.yaml
+# ─────────────────────────────────────────────────────────────
+
+# ── Feature Engineering (replaces raw CSV injection) ──────────
+# The workflow will automatically run feature_engineering.py on
+# these CSV files and pass the computed summary to the LLM.
+feature_engineering:
+  # Location – used to regenerate weather & household CSVs on each run
+  latitude:  32.7157
+  longitude: -117.1611
+
+  electricity_csv: data/electricity_data.csv
+  household_csv:   data/household_data.csv
+  weather_csv:     data/weather_data.csv
+  num_panels: 10
+  occupants:  4
+  house_sqm:  150.0
+  price_per_kwh: 0.31
+  num_evs: 1              # Number of EVs the household currently owns
+  pv_budget: 15000        # Household budget for PV installation (USD)
+
+# ── RAG knowledge base ────────────────────────────────────────
+data:
+  rag_file: data/knowledge.txt
+
+# ── Your prompt ───────────────────────────────────────────────
+prompt: >
+  You have been given a pre-computed feature-engineered summary
+  of electricity consumption, weather / solar potential, household
+  metrics, PV sizing analysis, and risk factors, along with
+  relevant passages from a domain knowledge base.
+
+  Task:
+  1. Review the feature-engineered data summary and the knowledge
+     base passages carefully.
+  2. Identify key trends, seasonal patterns, and anomalies.
+  3. The household owns {num_evs} EV(s). Factor in the additional
+     charging load when sizing PV panels.
+  4. The household has a budget of ${pv_budget} USD for PV
+     installation. Determine the maximum number of panels
+     affordable within this budget and whether it is sufficient
+     to meet their energy needs.
+  5. Determine the optimal number of PV panels for this household
+     and justify your recommendation with specific numbers from
+     the summary.
+  6. Estimate the cost savings and payback period.
+  7. Comment on risks (sunlight variability, consumption growth,
+     grid dependency) and whether battery storage is advisable.
+
+  Output: A clear recommendation with the number of PV panels
+  (constrained by the given budget), expected annual production,
+  cost savings, payback period, ROI, EV charging impact, and
+  any caveats.
+# ── Optional system instruction ────────────────────────────────
+system_prompt: >
+  You are an expert power grid data analyst who can suggest the number of PV cells that can be installed in any house based on weather, electricity and household_data and is able to reason well on why the recommendation is made. Be precise, cite numbers,
+  and structure your answer with clear sections and bullet points.
+
+# ── LLM backend ───────────────────────────────────────────────
+llm:
+  # Choose one: "ollama" | "vllm"
+  backend: ollama
+
+  # Ollama example
+  model: llama3.1:8b
+  host: http://localhost:11434
+
+  # vLLM example (uncomment and set backend: vllm)
+  # model: meta-llama/Meta-Llama-3-8B-Instruct
+  # host: http://localhost:8000
+
+  max_tokens: 4096
+  temperature: 0.2
+
+# ── RAG settings ──────────────────────────────────────────────
+rag:
+  chunk_size: 500       # characters per chunk
+  chunk_overlap: 50     # overlap between chunks
+  top_k: 5              # how many chunks to inject into the prompt
+
+# ── Output ────────────────────────────────────────────────
+output:
+  path: outputs/output.txt

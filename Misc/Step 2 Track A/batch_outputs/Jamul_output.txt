@@ -1,0 +1,36 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase during winter months (Winter / Summer ratio: 0.92).
+*   The average weekly load is around 3.51 kW, while the peak weekly max load reaches up to 9.89 kW.
+*   The household has a high nighttime load ratio of 74.28%, indicating a significant reliance on grid electricity during this period.
+
+### PV PANEL SIZING ANALYSIS
+
+*   Considering the additional EV charging load (3,500 kWh/yr), we need to account for an extra 10-15% increase in total energy production.
+*   Based on the estimated annual sunlight hours (657 hrs) and average weekly irradiance (225.53 W/m²), we can calculate the optimal number of PV panels required.
+
+### MAXIMUM NUMBER OF PANELS WITHIN BUDGET
+
+*   The household has a budget of $15,000 USD for PV installation.
+*   With an estimated panel cost of $350/panel and installation fixed cost of $4,000, we can determine the maximum number of panels affordable within this budget.
+
+### OPTIMAL NUMBER OF PV PANELS
+
+*   Based on the feature-engineered summary and knowledge base passages, I recommend installing **31** PV panels (at a budget of $15,000 USD).
+*   This will provide an estimated annual production of 4,899.55 kWh, covering approximately 85% of the household's total energy needs.
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+*   With this installation, the household can expect to save around **$1,518.86** per year.
+*   The payback period is estimated to be approximately **9.78 years**, considering a system lifespan of 25-30 years and an effective cost per kWh of $0.3100.
+
+### RISKS AND CAVEATS
+
+*   The household should consider battery storage to mitigate risks associated with sunlight variability, consumption growth, and grid dependency.
+*   Battery replacement costs (after warranty) can range from $8,000 to $15,000 USD, which may impact the overall payback period.
+
+## FINAL RECOMMENDATION
+
+Based on the feature-engineered summary and knowledge base passages, I recommend installing **31** PV panels within the household's budget of $15,000 USD. This will provide an estimated annual production of 4,899.55 kWh, covering approximately 85% of their total energy needs. The expected cost savings are around $1,518.86 per year, with a payback period of approximately **9.78 years**. However, the household should consider battery storage to mitigate risks associated with sunlight variability, consumption growth, and grid dependency.

@@ -1,0 +1,85 @@
+================================================================
+  FEATURE-ENGINEERED SUMMARY FOR LLM
+================================================================
+
+📊 ELECTRICITY CONSUMPTION SUMMARY
+────────────────────────────────────────
+  Annual household consumption    : 15,251.16 kWh
+  Avg daily consumption           : 41.78 kWh
+  Avg weekly load                 : 2,100.03 kW
+  Peak weekly max load            : 4,798.00 kW
+  95th-percentile weekly avg load  : 2,587.78 kW
+  Min weekly min load             : 390.00 kW
+  Load std deviation              : 269.53 kW
+  Coefficient of variation        : 0.1283
+  Interquartile range             : 314.94 kW
+  Peak-to-trough ratio            : 1.42
+  Winter / Summer ratio            : 0.92
+  Consumption trend slope          : 0.72 kW/week
+  Seasonal indices                : M1=1.01  M2=0.95  M3=0.89  M4=0.85  M5=0.87  M6=0.94  M7=1.10  M8=1.20  M9=1.16  M10=1.01  M11=0.97  M12=1.03
+  Year-over-year growth           : 2021_vs_2020: +5048.3%, 2022_vs_2021: +4.0%, 2023_vs_2022: -3.2%, 2024_vs_2023: +1.6%, 2025_vs_2024: +3.9%, 2026_vs_2025: -91.9%
+  Moving-avg trend slope          : 0.7159 kW/week
+  Change points (2σ)              : 12
+  Max single-week spike           : 4,798.00 kW
+  Weeks > 1.5× mean              : 2
+  Longest high-load streak        : 6 weeks
+
+☀️  SOLAR POTENTIAL SUMMARY
+────────────────────────────────────────
+  Avg weekly irradiance           : 219.72 W/m²
+  Est daily peak sun hours        : 1.76 hrs
+  Est annual sunlight hours       : 642.40 hrs
+  Seasonal irradiance index       : Autumn=0.63  Spring=1.34  Summer=1.11  Winter=0.92
+  Irradiance variance             : 4,751.28
+  Temp ↔ irradiance correlation    : 0.5817
+  Weeks above PV optimal temp     : 1
+  Cloudy-week frequency           : 9.20%
+  Sunlight consistency (CV)       : 0.3137
+  Consumption ↔ irradiance corr    : -0.2997
+  Lag correlations                : lag0=-0.300, lag1=-0.231, lag2=-0.157, lag3=-0.092, lag4=-0.019
+
+🏠 HOUSEHOLD SUMMARY
+────────────────────────────────────────
+  kWh per occupant (daily)        : 10.45 kWh
+  kWh per m² (daily)              : 0.2786 kWh
+  Cost per occupant (daily)       : $3.24
+  Cost per m² (daily)             : $0.0864
+  Effective cost per kWh           : $0.3100
+  Annual electricity spend         : $4,727.86
+  Projected 5-year cost            : $25,100.85
+
+⚡ PV SIZING & FINANCIAL ANALYSIS
+────────────────────────────────────────
+  Est annual production / panel    : 153.98 kWh
+  Panels for 100% offset          : 100
+  Panels for 70% offset           : 70
+  Panels for 50% offset           : 50
+  Overproduction months            : 0
+  Underproduction months           : 12
+  Panel cost                      : $350 / panel
+  Installation fixed cost          : $4,000
+  Break-even                      : 15.71 years
+  NPV (10 yr)                     : $-3,324.44
+  IRR                             : 6.78%
+  ROI (25 yr)                     : 132.05%
+  Payback vs lifespan             : 15.7 yr payback / 25 yr life → 9.3 yr profit
+
+🔌 GRID DEPENDENCY
+────────────────────────────────────────
+  Nighttime load ratio             : 63.19%
+  % outside peak sun (10am-3pm)   : 82.39%
+  Base load                       : 1.24 kW (71.0% of mean)
+  Variable load                   : 0.51 kW
+
+⚠️  RISK & SENSITIVITY
+────────────────────────────────────────
+  ROI (baseline)                  : 132.05%
+  ROI (price +10%)                : 155.25%
+  ROI (price -10%)                : 108.84%
+  ROI (sun +10%)                  : 155.25%
+  ROI (sun -10%)                  : 108.84%
+  Consumption volatility (CV)     : 0.1283
+  Sunlight volatility (CV)        : 0.3137
+  Combined risk score             : 0.2210
+
+================================================================

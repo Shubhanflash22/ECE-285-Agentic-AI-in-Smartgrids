@@ -1,0 +1,60 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY FINDINGS AND TRENDS
+
+*   The household's average daily electricity consumption is 75.05 kWh.
+*   The peak weekly max load is 9.51 kW, and the 95th-percentile weekly avg load is 3.68 kW.
+*   The household has a budget of $15,000 USD for PV installation.
+
+### OPTIMAL NUMBER OF PV PANELS
+
+Based on the feature-engineered summary, we can estimate the optimal number of PV panels required to meet the household's energy needs.
+
+*   **100% Offset**: 176 panels (as per the summary)
+*   **70% Offset**: 124 panels
+*   **50% Offset**: 88 panels
+
+Considering the additional charging load from the EV, we should aim for a higher offset percentage. Let's assume a 70% offset to account for the EV's energy consumption.
+
+### MAXIMUM NUMBER OF PANELS WITHIN BUDGET
+
+The total system cost (at budget) is $14,850 USD. Based on the estimated panel cost of $350 per panel, we can calculate the maximum number of panels within the budget:
+
+*   Maximum number of panels = Total system cost / Panel cost
+*   Maximum number of panels ≈ 42.43
+
+However, this calculation does not take into account the installation fixed cost of $4,000 USD. To be conservative, let's assume an additional 10% of the total system cost for installation and other expenses.
+
+*   Adjusted maximum number of panels = (Total system cost - Installation fixed cost) / Panel cost
+*   Adjusted maximum number of panels ≈ 38.43
+
+### RECOMMENDATION
+
+Based on the calculations above, we recommend installing **124 panels** to achieve a 70% offset and account for the EV's energy consumption. This will provide a sufficient amount of electricity to meet the household's needs while considering the additional charging load.
+
+### EXPECTED ANNUAL PRODUCTION AND COST SAVINGS
+
+*   Estimated annual production = 4,832.90 kWh (as per the summary)
+*   Annual savings = Estimated annual production \* Effective cost per kWh
+*   Annual savings ≈ $1,498.20
+
+### PAYBACK PERIOD AND ROI
+
+*   Break-even period = Total system cost / Annual savings
+*   Break-even period ≈ 9.91 years
+*   Payback period = Break-even period - System lifespan
+*   Payback period ≈ 16.09 years (assuming a 25-year system lifespan)
+*   ROI = (Annual savings \* Number of years) / Total system cost
+*   ROI ≈ 134.94%
+
+### RISKS AND CAVEATS
+
+*   Sunlight variability: The household is located in an area with moderate sunlight, which may impact the PV panel's efficiency.
+*   Consumption growth: The household's electricity consumption has been increasing over the years, which may affect the PV panel's capacity factor.
+*   Grid dependency: The household relies heavily on the grid for nighttime load, which may increase their energy bills.
+
+Battery storage is advisable to mitigate these risks and ensure a stable energy supply. However, this would require additional investment and should be considered separately.
+
+### FINAL RECOMMENDATION
+
+Based on the calculations above, we recommend installing **124 panels** to achieve a 70% offset and account for the EV's energy consumption. This will provide a sufficient amount of electricity to meet the household's needs while considering the additional charging load. The expected annual production is approximately 4,832.90 kWh, resulting in an estimated annual savings of $1,498.20. The payback period is approximately 16.09 years, and the ROI is around 134.94%.

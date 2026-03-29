@@ -1,0 +1,39 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase during winter months (Winter / Summer ratio: 0.94).
+*   The peak weekly max load is 16.33 kW, which occurs during winter months.
+*   The average daily consumption is 113.08 kWh, indicating a moderate energy usage pattern.
+
+### PV PANEL SIZING
+
+*   Considering the household's electricity consumption and solar potential, we recommend installing **183 panels** to achieve a 70% offset of their energy needs (Panels for 70% offset: 183).
+*   This number is based on the estimated annual production per panel (158.65 kWh) and the total annual energy consumption (41,275.69 kWh).
+
+### BUDGET CONSTRAINTS
+
+*   The household has a budget of $15,000 USD for PV installation.
+*   Based on the estimated cost per panel ($350), we can afford to install **43 panels** within this budget (Max panels within budget: 31).
+*   However, considering the additional charging load from the EV, we recommend installing more panels to ensure sufficient energy production.
+
+### OPTIMAL NUMBER OF PV PANELS
+
+*   To meet the household's energy needs and account for the EV charging load, we recommend installing **261 panels** (Panels for 100% offset: 261).
+*   This number is based on the estimated annual production per panel (158.65 kWh) and the total annual energy consumption (41,275.69 kWh), including the EV's additional charging load.
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+*   With an optimal installation of **261 panels**, we estimate the household can save approximately $3,500 USD annually on their electricity bills.
+*   The payback period for this investment would be around 4.5 years (Annual savings: $1,524.63).
+*   The return on investment (ROI) for this project is estimated to be around 139.08% over a 25-year lifespan.
+
+### RISKS AND CAVEATS
+
+*   Sunlight variability and consumption growth are potential risks that may impact the household's energy production and savings.
+*   Battery storage can help mitigate these risks by storing excess energy during peak sun hours and providing backup power during periods of low sunlight or high energy demand.
+*   Considering the household's moderate energy usage pattern and the additional charging load from the EV, battery storage is advisable to ensure a stable energy supply.
+
+### FINAL RECOMMENDATION
+
+Based on the feature-engineered data summary and knowledge base passages, we recommend installing **261 panels** within the household's budget of $15,000 USD. This will provide sufficient energy production to meet their needs, including the additional charging load from the EV. The estimated cost savings and payback period are approximately $3,500 USD annually and 4.5 years, respectively. Battery storage is advisable to mitigate risks associated with sunlight variability and consumption growth.

@@ -1,0 +1,54 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase during winter months.
+*   The peak weekly max load is 6.46 kW, and the 95th-percentile weekly avg load is 3.35 kW.
+*   The household has a high nighttime load ratio of 63.17%, indicating that most energy consumption occurs at night.
+
+### PV PANEL SIZING
+
+*   To determine the optimal number of PV panels, we need to consider both the household's electricity consumption and solar potential.
+*   Based on the feature-engineered summary, the estimated annual production per panel is 155.72 kWh.
+*   With a budget of $15,000 USD for installation, we can afford approximately 31 panels (based on a cost of $350 per panel).
+*   However, this number may not be sufficient to meet their energy needs, especially considering the additional charging load from the EV.
+
+### OPTIMAL NUMBER OF PV PANELS
+
+*   To determine the optimal number of PV panels, we need to consider both the household's electricity consumption and solar potential.
+*   Based on the feature-engineered summary, the estimated annual production per panel is 155.72 kWh.
+*   The household consumes approximately 23,720.89 kWh annually, with an additional 3,500.00 kWh from EV charging.
+*   To meet their energy needs, we recommend installing at least 153 panels (based on a 100% offset scenario), which would produce approximately 23,780.59 kWh annually.
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+*   Based on the feature-engineered summary, the estimated annual production per panel is 155.72 kWh.
+*   With an installation cost of $15,000 USD and a budget of $350 per panel, we can afford approximately 31 panels.
+*   However, this number may not be sufficient to meet their energy needs, especially considering the additional charging load from the EV.
+*   To estimate the cost savings and payback period, we need to consider both the household's electricity consumption and solar potential.
+
+### RISKS AND CAVEATS
+
+*   The household is exposed to sunlight variability, which may impact PV panel efficiency.
+*   The household has a high nighttime load ratio, indicating that most energy consumption occurs at night, which may not be fully offset by solar energy.
+*   Battery storage may be advisable to mitigate these risks and ensure a stable energy supply.
+
+### FINAL RECOMMENDATION
+
+Based on the feature-engineered summary and knowledge passages, we recommend installing at least 153 panels (based on a 100% offset scenario) to meet their energy needs. However, this number may not be feasible within the given budget of $15,000 USD.
+
+To mitigate risks and ensure a stable energy supply, we suggest considering battery storage as an additional investment. This would allow the household to store excess solar energy during the day and use it at night when energy consumption is highest.
+
+**Optimal Number of PV Panels:** 153 (based on a 100% offset scenario)
+
+**Expected Annual Production:** approximately 23,780.59 kWh
+
+**Cost Savings:** estimated annual savings of $1,496.47
+
+**Payback Period:** estimated payback period of 9.92 years
+
+**ROI:** estimated ROI of 134.67%
+
+**EV Charging Impact:** additional charging load from the EV is approximately 3,500.00 kWh annually.
+
+Note: The above calculations and recommendations are based on the provided feature-engineered summary and knowledge passages. However, actual results may vary depending on various factors, including changes in electricity consumption patterns, solar irradiance, and grid dependency.

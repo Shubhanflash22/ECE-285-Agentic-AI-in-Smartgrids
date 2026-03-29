@@ -1,0 +1,40 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: evaluator-job
+  namespace: shi-group-ece-advanced
+spec:
+  backoffLimit: 0 # If the script crashes, it won't endlessly restart
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: evaluator-container
+        image: python:3.10
+        workingDir: /data/SolarAgent
+        command: ["/bin/bash", "-c"]
+        args:
+          - |
+            echo "Installing dependencies..."
+            pip install --no-cache-dir pandas openpyxl scipy requests highspy numpy
+            echo "Running evaluator.py..."
+            python evaluator.py
+            echo "Execution finished!"
+        resources:
+          requests:
+            cpu: "8"
+            memory: "32Gi"
+          limits:
+            cpu: "9"
+            memory: "36Gi"
+        volumeMounts:
+        - name: mypvc
+          mountPath: /data
+      volumes:
+      - name: mypvc
+        persistentVolumeClaim:
+          claimName: seed-mining-sdxl
+      tolerations:
+      - key: "nvidia.com/gpu"
+        operator: "Exists"
+        effect: "PreferNoSchedule"

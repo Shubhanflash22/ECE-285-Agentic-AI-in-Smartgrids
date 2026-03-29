@@ -1,0 +1,54 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household consumes approximately 33,368 kWh per year.
+*   Peak weekly max load is 10.58 kW, and the 95th-percentile weekly avg load is 4.57 kW.
+*   Winter/Summer ratio is 0.94, indicating relatively consistent energy consumption throughout the year.
+
+### PV PANEL SIZING
+
+*   Considering the household's total annual electricity spend of $10,344.15 and the estimated annual production per panel (157.01 kWh), we can calculate the required number of panels to meet their energy needs.
+*   Based on the feature-engineered summary, the optimal number of panels for 100% offset is 213.
+
+### BUDGET CONSTRAINTS
+
+*   The household has a budget of $15,000 USD for PV installation.
+*   With an estimated panel cost of $350 per panel and an installation fixed cost of $4,000, we can determine the maximum number of panels affordable within this budget.
+*   Assuming a 25-year system lifespan, the total system cost (at budget) is approximately $14,850.
+
+### MAXIMUM NUMBER OF PANELS WITHIN BUDGET
+
+*   Based on the estimated panel cost and installation fixed cost, the household can afford to install up to 31 panels within their budget of $15,000 USD.
+
+### OPTIMAL NUMBER OF PV PANELS
+
+*   Considering the household's energy consumption patterns and the available solar potential, we recommend installing **30** PV panels.
+*   This number is chosen to balance the household's energy needs with the available sunlight hours and the budget constraint.
+
+### EXPECTED ANNUAL PRODUCTION AND COST SAVINGS
+
+*   With 30 installed panels, the estimated annual production would be approximately 4,733 kWh (157.01 kWh/panel \* 30 panels).
+*   Based on the feature-engineered summary, the household's total annual electricity spend is $10,344.15.
+*   Assuming an effective cost per kWh of $0.3100, the estimated annual savings would be approximately $1,465.19 (4,733 kWh \* $0.3100/kWh).
+
+### PAYBACK PERIOD AND ROI
+
+*   Based on the estimated system cost and annual savings, the payback period is approximately 10.3 years.
+*   The NPV (10 yr) is -$2,514.11, indicating a slight financial loss in the short term.
+*   However, considering the system's lifespan of 25 years, the ROI (25 yr) would be approximately 143.19%.
+
+### RISKS AND CAVEATS
+
+*   Sunlight variability and consumption growth may impact the household's energy needs and savings.
+*   Battery storage is advisable to mitigate these risks and ensure a stable energy supply.
+
+## RECOMMENDATION SUMMARY
+
+We recommend installing **30** PV panels, which would meet approximately 70% of the household's energy needs. This number balances the available sunlight hours with the budget constraint and ensures a reasonable payback period. The estimated annual production is approximately 4,733 kWh, resulting in an estimated annual savings of $1,465.19. While there are risks associated with sunlight variability and consumption growth, battery storage can help mitigate these effects and ensure a stable energy supply.
+
+**Caveats:**
+
+*   This recommendation assumes the household's energy consumption patterns remain consistent.
+*   The actual payback period may vary depending on factors like solar panel efficiency, installation costs, and local incentives.
+*   Battery storage is advisable to ensure a stable energy supply and mitigate risks associated with sunlight variability and consumption growth.

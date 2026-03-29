@@ -1,0 +1,42 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase during winter months (Winter / Summer ratio: 0.92).
+*   The average weekly load is around 4.22 kW, while the peak weekly max load reaches up to 9.55 kW.
+*   The household has a moderate level of sunlight exposure, with an estimated annual sunlight hours of 649.70 hrs and an average weekly irradiance of 222.20 W/m².
+
+### PV PANEL SIZING
+
+Considering the additional charging load from the EV (3,500 kWh/yr), we need to ensure that the PV system can meet this increased demand.
+
+*   The estimated annual production per panel is 155.72 kWh.
+*   To offset 100% of the household's electricity consumption and account for the EV's charging needs, we would require **237 panels** ( Panels for 100% offset).
+*   However, given the budget constraint of $15,000 USD, we can only afford to install a maximum of **31 panels** (Max panels within budget).
+
+### OPTIMAL NUMBER OF PV PANELS
+
+Based on the available data and considering the household's energy needs, I recommend installing **31 panels**, which should provide approximately 4,827.32 kWh/yr of electricity.
+
+*   This number is constrained by the budget but should still allow for a significant reduction in the household's electricity bill.
+*   The estimated annual savings with this installation would be around $1,496.47.
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+With 31 panels installed, the total system cost (at budget) would be approximately $14,850 USD.
+
+*   Based on the estimated annual production and savings, the payback period for this investment would be around **9.92 years**.
+*   The Return on Investment (ROI) for this project is expected to be around 134.67% over a 25-year lifespan.
+
+### RISKS AND CAVEATS
+
+While battery storage is not explicitly recommended in this analysis, it may become more financially attractive as the current net billing rules are revised.
+
+*   The household should consider factors like sunlight variability and consumption growth when evaluating the effectiveness of their PV system.
+*   It's essential to monitor and adjust the system as needed to ensure optimal performance and maximize energy savings.
+
+### FINAL RECOMMENDATION
+
+Based on the provided data summary and knowledge base passages, I recommend installing **31 panels** within the household's budget of $15,000 USD. This should provide a significant reduction in electricity bills while also accounting for the additional EV charging load. The estimated annual production would be around 4,827.32 kWh/yr, with an expected payback period of approximately **9.92 years** and an ROI of 134.67% over a 25-year lifespan.
+
+Please note that this analysis assumes no changes in electricity rates or consumption patterns. Regular monitoring and adjustments may be necessary to ensure the optimal performance of the PV system.

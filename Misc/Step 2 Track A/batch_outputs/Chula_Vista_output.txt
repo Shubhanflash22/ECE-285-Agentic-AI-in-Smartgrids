@@ -1,0 +1,56 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND PATTERNS
+
+*   The household consumes approximately 30,167.51 kWh of electricity annually.
+*   The average daily consumption is 82.65 kWh, with a peak weekly max load of 8.06 kW and a 95th-percentile weekly avg load of 4.26 kW.
+*   The solar potential summary indicates an average weekly irradiance of 219.14 W/m² and estimated annual sunlight hours of 638.80 hrs.
+
+### PV PANEL SIZING
+
+Based on the household's energy consumption, we will size the PV panel system to meet their needs while considering the additional charging load from the EV.
+
+*   The total annual kWh (house + EV) is 33,667.51 kWh.
+*   To determine the optimal number of panels, we'll use the estimated annual production per panel: 153.57 kWh.
+*   Considering a 70% offset, which is a reasonable target for this household, we can estimate the required number of panels:
+    *   Total annual energy requirement: 33,667.51 kWh
+    *   Required annual energy from PV: 23,566.85 kWh (70% of total)
+    *   Number of panels needed: 153.57 kWh/panel \* 23,566.85 kWh / 0.7 = 93.5 panels
+
+### BUDGET CONSTRAINTS
+
+The household has a budget of $15,000 USD for PV installation.
+
+*   The estimated cost per panel is $350.
+*   To determine the maximum number of panels affordable within this budget:
+    *   Maximum number of panels: $15,000 / $350 = 42.86 panels (round down to 42)
+
+### OPTIMAL NUMBER OF PANELS
+
+Considering both energy requirements and budget constraints, we recommend installing 42 PV panels.
+
+*   Expected annual production: 42 \* 153.57 kWh/panel = 6,459.54 kWh
+*   Cost savings: $1,475.81 (based on the provided financial analysis)
+*   Payback period: approximately 10.06 years (based on the provided financial analysis)
+
+### RISKS AND CAVEATS
+
+*   Sunlight variability: The household is located in an area with moderate sunlight hours and relatively low irradiance variance.
+*   Consumption growth: The household's energy consumption has been steadily increasing, but at a slow rate.
+*   Grid dependency: The household relies heavily on the grid during nighttime hours, which may impact their ability to fully offset their energy needs.
+
+### BATTERY STORAGE
+
+Given the household's high evening peak rates and reliance on the grid during nighttime hours, battery storage is advisable to maximize the value of stored solar energy.
+
+## RECOMMENDATION SUMMARY
+
+Based on the provided data summary and knowledge passages, we recommend installing 42 PV panels to meet the household's energy needs while considering their budget constraints. The expected annual production will be approximately 6,459.54 kWh, resulting in cost savings of $1,475.81 and a payback period of around 10.06 years. Battery storage is also recommended to maximize the value of stored solar energy.
+
+**Optimal Number of PV Panels:** 42
+
+**Expected Annual Production:** 6,459.54 kWh
+
+**Cost Savings:** $1,475.81
+
+**Payback Period:** approximately 10.06 years

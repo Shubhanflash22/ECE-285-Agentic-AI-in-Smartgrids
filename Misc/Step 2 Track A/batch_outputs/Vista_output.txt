@@ -1,0 +1,35 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's annual electricity consumption is 28,729.04 kWh.
+*   The average daily consumption is 78.71 kWh, with an average weekly load of 3.29 kW and a peak weekly max load of 8.46 kW.
+*   The seasonal indices show that the winter/summer ratio is 0.92, indicating relatively consistent energy demand throughout the year.
+
+### PV PANEL SIZING ANALYSIS
+
+*   Considering the household's energy needs, we will size the PV panels to meet at least 70% of their annual electricity consumption (28,729.04 kWh \* 0.7 = 20,110.28 kWh).
+*   Based on the estimated annual production per panel (155.48 kWh), we can calculate the required number of panels: 20,110.28 kWh / 155.48 kWh/panel ≈ 129.5 panels.
+*   To account for potential energy losses and ensure a comfortable buffer, we will round up to the nearest whole number, resulting in a recommended minimum of **130 PV panels**.
+
+### BUDGET CONSTRAINTS
+
+*   The household has a budget of $15,000 USD for PV installation.
+*   Based on the estimated total system cost (at budget) of $14,850, we can determine that the maximum number of panels affordable within this budget is approximately 31 panels ($14,850 / $350/panel ≈ 42.43, but considering other costs and rounding down to nearest whole number).
+
+### OPTIMAL NUMBER OF PV PANELS
+
+*   Given the household's energy needs and budget constraints, we recommend installing **130 PV panels** to meet at least 70% of their annual electricity consumption.
+*   This will result in an estimated annual production of approximately 20,110.28 kWh (129.5 \* 155.48 kWh/panel).
+*   The expected cost savings can be calculated by multiplying the annual production by the effective cost per kWh ($0.3100): $6,234.29.
+*   Based on the payback period analysis, installing 130 PV panels will result in a break-even point of approximately **9.94 years**.
+
+### RISKS AND CAVEATS
+
+*   The household's energy consumption is relatively consistent throughout the year, with minimal seasonal fluctuations.
+*   However, there is a risk of sunlight variability, which can impact PV panel efficiency.
+*   Battery storage may be advisable to mitigate this risk and ensure a stable energy supply during periods of low sunlight.
+
+### CONCLUSION
+
+Based on the feature-engineered data summary and knowledge base passages, we recommend installing **130 PV panels** to meet at least 70% of the household's annual electricity consumption. This will result in an estimated annual production of approximately 20,110.28 kWh, with expected cost savings of $6,234.29 and a break-even point of approximately **9.94 years**. While there are risks associated with sunlight variability, battery storage may be advisable to ensure a stable energy supply during periods of low sunlight.

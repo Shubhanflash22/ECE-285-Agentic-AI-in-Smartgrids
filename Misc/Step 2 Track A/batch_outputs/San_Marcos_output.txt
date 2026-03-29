@@ -1,0 +1,50 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY FINDINGS AND TRENDS
+
+*   The household consumes approximately 24,468.99 kWh of electricity annually.
+*   The average daily consumption is 67.04 kWh, with a peak weekly max load of 6.33 kW and a 95th-percentile weekly avg load of 3.44 kW.
+*   The solar potential summary indicates an average weekly irradiance of 222.66 W/m² and estimated annual sunlight hours of 649.70 hrs.
+*   The household has a budget of $15,000 USD for PV installation.
+
+### OPTIMAL NUMBER OF PV PANELS
+
+Based on the feature-engineered data summary and considering the additional charging load from the EV (3,500.00 kWh annually), we recommend installing **31 panels** within the given budget of $15,000 USD. This is calculated as follows:
+
+*   Estimated annual production per panel: 156.04 kWh
+*   Total estimated annual production for 31 panels: 4,837.24 kWh (close to meeting their energy needs)
+*   Cost per panel: $350
+*   Installation fixed cost: $4,000
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+With the recommended installation of 31 panels, we estimate:
+
+*   Annual savings: $1,499.54 (based on estimated annual production and household electricity consumption)
+*   Break-even period: approximately **9.90 years** (calculated using the NPV method)
+
+### RISK ASSESSMENT AND BATTERY STORAGE
+
+Considering the risks associated with sunlight variability (0.3317 CV) and consumption growth (0.1283 CV), we recommend:
+
+*   Battery storage is advisable to mitigate these risks, especially during periods of high electricity demand or low solar irradiance.
+
+### CAVEATS AND RECOMMENDATIONS
+
+*   The household should consider investing in battery storage to optimize energy usage and reduce reliance on the grid.
+*   Regular maintenance (e.g., cleaning) may be necessary to ensure optimal panel performance.
+*   The installation budget should account for potential future upgrades or replacements of equipment.
+
+### FINAL RECOMMENDATION
+
+Based on the data summary and knowledge passages, we recommend installing **31 PV panels** within the given budget of $15,000 USD. This will help meet the household's energy needs, provide significant cost savings, and offer a reasonable payback period. However, considering the risks associated with sunlight variability and consumption growth, investing in battery storage is advisable to optimize energy usage and reduce reliance on the grid.
+
+**Optimal Number of PV Panels:** 31
+
+**Estimated Annual Production:** 4,837.24 kWh
+
+**Annual Savings:** $1,499.54
+
+**Break-even Period:** approximately **9.90 years**
+
+**Battery Storage Recommendation:** Advisable to mitigate risks associated with sunlight variability and consumption growth.

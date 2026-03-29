@@ -1,0 +1,58 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase during winter months (M1=1.01) and a decrease during summer months (M6=0.94).
+*   The peak weekly max load is 6.58 kW, while the min weekly min load is 0.53 kW.
+*   The average daily consumption is 68.72 kWh, with an average weekly load of 2.87 kW.
+
+### PV PANEL SIZING
+
+Based on the household's energy needs and budget constraints, we recommend installing a system that can meet at least 70% of their annual electricity requirements.
+
+*   According to the feature-engineered summary, the estimated annual production per panel is 154.05 kWh.
+*   To determine the required number of panels, we use the following formula:
+
+    Required Panels = Total Annual Consumption \* (1 - Desired Offset Percentage) / Estimated Annual Production per Panel
+
+    For a 70% offset, this becomes:
+
+    Required Panels = 25,083.31 kWh \* (1 - 0.7) / 154.05 kWh/panel ≈ 114 panels
+
+### BUDGET CONSTRAINTS
+
+The household has a budget of $15,000 USD for PV installation.
+
+*   Based on the estimated cost per panel ($350), we can calculate the maximum number of panels affordable within this budget:
+
+    Maximum Panels = Budget / Cost per Panel
+    Maximum Panels ≈ 15,000 USD / 350 USD/panel ≈ 43 panels
+
+However, considering the required number of panels for a 70% offset (114) and the maximum number of panels affordable within the budget (43), we must choose between these two options.
+
+### OPTIMAL PV PANEL INSTALLATION
+
+Given the trade-offs between meeting energy needs and staying within budget, we recommend installing a system with:
+
+*   **Maximum Panels**: 31 panels (within budget)
+*   **Expected Annual Production**: 4,775.55 kWh
+*   **Cost Savings**: $1,480.42 per year
+*   **Payback Period**: 10.03 years
+
+This recommendation balances the household's energy needs with their budget constraints.
+
+### RISKS AND CAVEATS
+
+*   **Sunlight Variability**: The sunlight consistency (CV) is relatively high at 0.3141, indicating potential variability in solar production.
+*   **Consumption Growth**: The consumption trend slope is 0.00 kW/week, suggesting stable energy needs.
+*   **Grid Dependency**: The nighttime load ratio is 63.18%, indicating a significant reliance on grid electricity during non-solar hours.
+
+Considering these factors, battery storage may be advisable to mitigate the impact of sunlight variability and ensure a stable energy supply during periods of low solar production.
+
+### RECOMMENDATION JUSTIFICATION
+
+Our recommendation for installing 31 panels within the budget is based on balancing the household's energy needs with their financial constraints. This system should provide sufficient electricity to meet at least 70% of their annual requirements while staying within the allocated budget.
+
+The expected annual production, cost savings, and payback period are estimated using the provided feature-engineered summary and knowledge base passages.
+
+By installing a PV system with 31 panels, the household can reduce their reliance on grid electricity, lower their energy bills, and contribute to a more sustainable energy future.

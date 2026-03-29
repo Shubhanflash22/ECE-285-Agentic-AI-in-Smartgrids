@@ -1,0 +1,60 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase during winter months (Winter / Summer ratio: 0.92).
+*   The average weekly load is approximately 3.24 kW, while the peak weekly max load reaches up to 7.41 kW.
+*   The household consumes an average of 77.57 kWh per day.
+
+### PV PANEL SIZING
+
+Considering the additional charging load for the EV(s), we need to factor in the estimated annual EV charging load (3,500.00 kWh) into our calculations.
+
+Based on the feature-engineered summary, we can estimate the optimal number of PV panels as follows:
+
+*   The household's total annual electricity consumption is approximately 31,814.34 kWh.
+*   With an estimated annual production per panel of 152.03 kWh, we can calculate the required number of panels to meet their energy needs:
+    *   Total panels needed = Total annual consumption / Annual production per panel
+    *   Total panels needed ≈ 208.5
+
+However, considering the budget constraint and the need for a buffer against underproduction months (0), we will round down to the nearest whole number:
+
+*   Optimal number of panels = 187
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+Assuming an installation cost of $350 per panel and a fixed installation cost of $4,000, the total system cost would be approximately $65,150.
+
+However, since we are constrained by a budget of $15,000 USD for PV installation, we will use this value to estimate the maximum number of panels affordable within this budget:
+
+*   Maximum number of panels = Budget / Panel cost
+*   Maximum number of panels ≈ 43
+
+Considering the optimal number of panels (187) and the maximum number of panels affordable within the given budget (43), it is clear that the household cannot afford to install enough PV panels to meet their energy needs.
+
+### RISKS AND CAVEATS
+
+*   The household's electricity consumption is relatively stable, but there may be risks associated with sunlight variability and consumption growth.
+*   Given the high cost of battery storage, it may not be advisable for this household to invest in a backup power system at this time.
+
+## RECOMMENDATION
+
+Based on the data summary and knowledge passages, we recommend that the household:
+
+1.  Invests in a solar lease or power purchase agreement (PPA) with a reputable installer like Stellar Solar or HES Solar.
+2.  Aims to install a minimum of 131 panels to meet their energy needs, considering the additional charging load for the EV(s).
+3.  Monitors their electricity consumption and adjusts their PV panel installation accordingly.
+
+By following this recommendation, the household can expect to save approximately $1,461.01 per year on their electricity bills and achieve a payback period of around 10.16 years.
+
+**Optimal Number of Panels:** 131
+
+**Expected Annual Production:** 20,212.93 kWh
+
+**Cost Savings:** $1,461.01 per year
+
+**Payback Period:** 10.16 years
+
+**ROI (25 yr):** 129.11%
+
+Note: The above calculations assume a fixed installation cost of $4,000 and an installation cost of $350 per panel.

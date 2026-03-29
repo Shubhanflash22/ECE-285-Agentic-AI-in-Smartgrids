@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────────────────────
+# LLM Workflow – Python dependencies
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# ── Core (always needed) ──────────────────────────────────────
+requests>=2.31.0          # HTTP client (Ollama & vLLM raw requests)
+pyyaml>=6.0               # YAML config parsing
+pandas>=2.0.0             # CSV loading with stats (optional but recommended)
+tabulate>=0.9.0           # pandas .to_markdown() support
+
+# ── RAG (strongly recommended) ───────────────────────────────
+scikit-learn>=1.3.0       # TF-IDF cosine similarity for RAG
+
+# ── Ollama backend ────────────────────────────────────────────
+# No extra dependencies – uses `requests` above
+
+# ── vLLM backend ─────────────────────────────────────────────
+openai>=1.0.0             # OpenAI-compatible SDK for vLLM endpoint
