@@ -1,0 +1,158 @@
+San Diego, CA – Residential Solar (PV) Market Overview
+Location: San Diego, California
+Primary Utility: San Diego Gas & Electric
+
+Major Solar PV Installers Serving San Diego
+
+Stellar Solar
+Services: Residential solar, battery storage, commercial solar
+Typical equipment: Enphase microinverters, Tesla Powerwall
+Established local installer with strong experience in SDG&E territory
+
+HES Solar
+Services: Residential solar, batteries, roofing
+Offers system monitoring and service plans
+
+Solar Optimum
+Services: Solar panels, batteries, roofing
+Regional installer operating in Southern California
+
+NRG Clean Power
+Services: Solar + storage systems
+Offers financing options including loans and PPAs
+
+American Array Solar and Roofing
+Services: Solar installation and roofing combined
+Useful if roof replacement is required before solar
+
+Note: Always obtain 3 to 5 quotes for accurate pricing comparison.
+
+Solar Panel Installation Cost – San Diego (2025 Range)
+
+Average cost per watt installed (before incentives):
+2.70 to 3.30 USD per watt
+
+Typical system sizes and costs before federal tax credit:
+
+3 kW system
+8,000 to 10,000 USD
+
+5 kW system
+13,000 to 18,000 USD
+
+7 kW system
+18,000 to 24,000 USD
+
+10 kW system
+26,000 to 33,000 USD
+
+Federal Investment Tax Credit (ITC):
+30 percent tax credit on total installed system cost (if eligible)
+
+Example:
+20,000 USD system → 6,000 USD tax credit → Net cost approx. 14,000 USD
+
+Equipment Breakdown
+
+Solar Panels
+Common brands: Qcells, REC, Panasonic, Silfab
+Warranty: 25 years performance
+Degradation: ~0.25% to 0.5% per year
+
+Inverter Types
+String inverter
+Lower upfront cost
+Typical lifespan: 10 to 15 years
+
+Microinverters
+Higher upfront cost
+Lifespan: up to 25 years
+
+Inverter replacement cost (out of warranty):
+1,000 to 3,000 USD depending on system size
+
+Battery Storage (Optional but Increasingly Common)
+
+Typical home battery cost installed:
+8,000 to 15,000 USD
+
+Battery lifespan:
+10 to 15 years
+
+Common reasons to add battery in San Diego:
+Time-of-use rate optimization
+Backup power during outages
+Reduced export value under NEM 3.0
+
+Maintenance and Replacement Costs
+
+Annual maintenance
+Minimal; mostly monitoring and occasional cleaning
+
+Panel cleaning
+150 to 400 USD per cleaning (if needed)
+
+Roof removal and reinstall (if roof work required later)
+3,000 to 6,000 USD depending on system size
+
+Battery replacement after warranty
+8,000 to 15,000 USD
+
+SDG&E Considerations
+
+Under current net billing rules, excess solar energy exported to the grid is credited at lower rates compared to older NEM policies.
+This makes battery storage more financially attractive than before.
+
+Time-of-use rates significantly impact solar payback period.
+High evening peak rates increase value of stored solar energy.
+
+Payback Period in San Diego
+
+Typical payback period:
+6 to 10 years depending on:
+
+System size
+
+Energy consumption
+
+Battery inclusion
+
+Financing type
+
+SDG&E rate plan
+
+Solar system lifespan:
+25 to 30 years
+
+Alternatives to Traditional Rooftop Solar
+
+Community Solar
+Subscribe to a shared solar project
+No roof installation required
+
+Solar Lease or Power Purchase Agreement (PPA)
+Low or zero upfront cost
+You do not own the system
+Lower long-term savings compared to ownership
+
+Energy Efficiency Upgrades
+Insulation
+HVAC upgrades
+Heat pump water heater
+May reduce required system size
+
+Key Decision Factors for San Diego Homes
+
+Roof age and condition
+
+Annual electricity usage (kWh per year)
+
+Future EV ownership
+
+Desire for backup power
+
+Budget and financing method
+
+Exposure to shading
+
+End of file content.

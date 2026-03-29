@@ -1,0 +1,47 @@
+## Recommendation for PV Panel Installation
+
+### Key Trends and Seasonal Patterns
+
+*   The household's electricity consumption is relatively consistent throughout the year, with a slight increase during winter months (M1=1.00, M2=0.96, M3=0.91, M4=0.87).
+*   The solar potential summary indicates that the average weekly irradiance is 217.86 W/m², with an estimated daily peak sun hours of 1.74 hrs.
+*   The household's energy consumption is relatively high during nighttime (69.55% of total load), indicating a significant reliance on grid electricity.
+
+### PV Panel Sizing and Budget
+
+*   Considering the additional charging load from the EV(s) (3,500.00 kWh/yr), we need to factor this into our PV panel sizing.
+*   The household has a budget of $15,000 USD for PV installation, which translates to approximately 31 panels at $350 per panel.
+
+### Optimal Number of PV Panels
+
+*   Based on the solar potential summary and considering the additional charging load from the EV(s), we recommend installing **26-28 panels** (at $350/panel) to meet their energy needs.
+    *   This number is constrained by the given budget, but also takes into account the household's energy consumption patterns and the additional charging load from the EV(s).
+*   With 26-28 panels, we can expect an annual production of approximately **4,733.08 kWh** (at a capacity factor of 25%).
+*   This will result in significant cost savings, with an estimated annual savings of **$1,467.25**.
+
+### Cost Savings and Payback Period
+
+*   Based on the recommended PV panel installation, we estimate a payback period of approximately **10.12 years**, considering the household's energy consumption patterns and the additional charging load from the EV(s).
+*   The return on investment (ROI) for this project is estimated to be around **130.09%** over 25 years.
+
+### Risks and Battery Storage
+
+*   Considering the risks associated with sunlight variability, consumption growth, and grid dependency, we recommend exploring battery storage options to optimize energy self-sufficiency.
+*   With a well-designed solar-plus-storage system, the household can reduce their reliance on grid electricity during nighttime hours and take advantage of time-of-use rates.
+
+### Conclusion
+
+Based on our analysis, we recommend installing **26-28 panels** (at $350/panel) to meet the household's energy needs. This will result in significant cost savings, with an estimated annual savings of **$1,467.25**, and a payback period of approximately **10.12 years**. Considering the risks associated with sunlight variability, consumption growth, and grid dependency, we recommend exploring battery storage options to optimize energy self-sufficiency.
+
+### Caveats
+
+*   The household's energy consumption patterns may change over time due to various factors (e.g., changes in occupancy, appliance usage).
+*   The solar potential summary assumes a relatively consistent irradiance pattern throughout the year. However, actual irradiance levels may vary depending on local weather conditions.
+*   Battery storage options should be carefully evaluated to ensure optimal energy self-sufficiency and cost savings.
+
+### References
+
+Passages from the knowledge base were used to inform our analysis:
+
+1.  Passage 1: Payback Period in San Diego
+2.  Passage 3: SDG&E Considerations
+3.  Passage 5: Equipment Breakdown

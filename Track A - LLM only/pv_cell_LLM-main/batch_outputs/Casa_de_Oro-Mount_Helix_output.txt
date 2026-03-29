@@ -1,0 +1,59 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY FINDINGS AND TRENDS
+
+* The household's annual electricity consumption is 34,424.30 kWh.
+* The average daily consumption is 94.31 kWh, with a peak weekly max load of 9.12 kW and a 95th-percentile weekly avg load of 4.86 kW.
+* The solar potential summary indicates an average weekly irradiance of 222.20 W/m² and estimated annual sunlight hours of 649.70 hrs.
+* The household owns 1 EV, which adds 3,500.00 kWh to their annual electricity consumption.
+
+### PV PANEL SIZING AND FINANCIAL ANALYSIS
+
+* Based on the feature-engineered summary, we can estimate the required number of panels for 100% offset as 222 panels (155.72 kWh/panel).
+* However, considering the household's budget of $15,000 USD and the estimated panel cost of $350/panel, we can calculate the maximum affordable number of panels:
+	+ Total budget: $15,000
+	+ Panel cost: $350/panel
+	+ Maximum panels within budget: 42.86 ( rounded down to 42)
+* To determine the optimal number of panels, we need to consider both energy production and cost savings.
+
+### OPTIMAL NUMBER OF PV PANELS
+
+* Based on the solar potential summary, we can estimate the annual production for 42 panels:
+	+ Estimated annual production: 6,563.44 kWh (155.72 kWh/panel \* 42 panels)
+* Considering the household's energy consumption and EV charging load, we can calculate the required number of panels to meet their energy needs:
+	+ Required annual production: 37,924.30 kWh (household + EV)
+	+ Required number of panels: 243.35 (37,924.30 kWh / 155.72 kWh/panel)
+* However, since the household's budget is limited, we will recommend installing 42 panels to balance energy production and cost savings.
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+* Estimated annual savings with 42 panels: $1,496.47
+* Break-even period (at budget): 9.92 years
+* NPV (10 yr) for 42 panels: $-2,331.19
+* IRR for 42 panels: 6.85%
+
+### RISKS AND CAVEATS
+
+* Sunlight variability and consumption growth may impact energy production and savings.
+* Battery storage is advisable to mitigate these risks and provide backup power during grid outages.
+
+## RECOMMENDATION
+
+Based on the feature-engineered summary, knowledge base passages, and calculations above, we recommend installing 42 PV panels within the household's budget of $15,000 USD. This will provide an estimated annual production of 6,563.44 kWh, resulting in cost savings of $1,496.47 per year. The break-even period is approximately 9.92 years, with a NPV (10 yr) of -$2,331.19 and an IRR of 6.85%. Battery storage is advisable to mitigate risks associated with sunlight variability and consumption growth.
+
+**Optimal PV Panel Installation Recommendation:**
+
+* Number of panels: 42
+* Estimated annual production: 6,563.44 kWh
+* Cost savings: $1,496.47 per year
+* Break-even period: 9.92 years
+* NPV (10 yr): -$2,331.19
+* IRR: 6.85%
+
+**Caveats and Recommendations:**
+
+* Consider battery storage to mitigate risks associated with sunlight variability and consumption growth.
+* Monitor energy production and savings regularly to adjust the system as needed.
+* Regular maintenance and cleaning of panels are essential to ensure optimal performance.
+
+This recommendation is based on a thorough analysis of the feature-engineered summary, knowledge base passages, and calculations above. It provides a balanced approach to meeting the household's energy needs while considering their budget constraints.

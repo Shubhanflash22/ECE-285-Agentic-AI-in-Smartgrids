@@ -1,0 +1,75 @@
+# ──────────────────────────────────────────────────────────────
+# PV-Sizing Workflow Configuration
+# ──────────────────────────────────────────────────────────────
+
+llm:
+  backend: xai
+  model: grok-4-1-fast-non-reasoning  # fastest xAI model, no reasoning needed for JSON formatting
+  host: https://api.x.ai/v1
+  max_tokens: 2048                    # recommendation JSON can exceed 1000 tokens; 1024 caused truncation
+  temperature: 0.1                    # near-deterministic: the LLM just copies pre-computed values
+
+xai:
+  api_key_env: XAI_API_KEY
+  use_structured_output: false        # prompt-based JSON is more reliable than strict schema mode
+  response_format: json_schema
+  timeout_s: 120                      # grok-4-1-fast responds in <30s typically; 2 min is generous
+
+# ── Feature engineering defaults ─────────────────────────────
+features:
+  panel_watt_peak: 400                # Wp per panel
+  system_derate: 0.82                 # overall system derate factor
+  cost_per_watt_usd: 3.00            # installed $/W before incentives
+  electricity_rate_usd_kwh: 0.35     # retail rate (San Diego avg)
+  annual_degradation: 0.005          # panel degradation %/yr
+  system_lifetime_years: 25
+
+# ── Prompt settings ──────────────────────────────────────────
+prompt:
+  max_prompt_chars: 24000             # hard truncation limit
+  system_prompt: >
+    You are a solar-energy sizing assistant for San Diego, California.
+    Your ONLY job is to format pre-computed results into valid JSON.
+    All numeric values (CAPEX, savings, payback, NPV, panel counts,
+    production, consumption) have already been computed by deterministic
+    tools and are provided in the TOOL RESULTS block.
+    You must COPY these numbers exactly — do not re-derive, round
+    differently, estimate, or invent any numeric value.
+    If a value is not in TOOL RESULTS, FEATURES, EQUIPMENT CATALOG,
+    or USER INPUTS, output "N/A" — never guess.
+  followup_system_prompt: >
+    You are a professional solar investment advisor for San Diego
+    homeowners. You speak as a trusted consultant, not a chatbot.
+    Answer the homeowner's question using ONLY the recommendation,
+    tool results, and conversation already provided.
+    Reference specific numbers from the analysis (panel count,
+    savings, payback, roof fit) when explaining your reasoning.
+    If the homeowner asks "why", walk them through the calculation
+    step by step. If they ask about alternatives (different budget,
+    battery, rate plan), compare against the current recommendation.
+    Do NOT invent numbers, costs, or facts. If the answer is not
+    available in the context, say so honestly. Be concise, warm,
+    and professional — like a solar consultant at a home visit.
+
+# ── Paths ────────────────────────────────────────────────────
+paths:
+  data_dir: data
+  output_dir: outputs
+  locations_file: data/locations.csv
+
+# ── Data extraction (affects latency) ────────────────────────
+extraction:
+  years_back: 1                       # weather history (1 = fastest, 2 = faster, 5 = more accurate)
+
+# ── User input defaults (null = derive from lat/lon) ─────────
+user_inputs:
+  latitude: 32.7157
+  longitude: -117.1611
+  num_evs: 0
+  num_people: 2
+  num_daytime_occupants: 1
+  budget_usd: 25000
+  roof_length_m: 8.0                   # south-facing roof length (metres)
+  roof_breadth_m: 6.25                 # south-facing roof breadth (metres) — area = length × breadth
+  rate_plan: TOU_DR                    # TOU_DR, TOU_DR1, or TOU_DR2
+  panel_brand: null                    # null = let optimizer choose

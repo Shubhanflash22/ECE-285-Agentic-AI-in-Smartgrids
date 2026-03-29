@@ -1,0 +1,54 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase in winter months.
+*   The peak weekly max load is 6.72 kW, and the 95th-percentile weekly avg load is 3.48 kW.
+*   The solar potential summary indicates that the average weekly irradiance is 222.21 W/m², and the estimated daily peak sun hours are 1.78 hrs.
+
+### PV PANEL SIZING
+
+Based on the household's electricity consumption and solar potential, we can estimate the required number of PV panels to meet their energy needs.
+
+*   The household consumes approximately 24,694 kWh per year.
+*   Assuming an average efficiency of 15% for commercial-grade solar panels, we need to calculate the total wattage required to generate this amount of electricity.
+*   Using the estimated daily peak sun hours (1.78 hrs) and the average weekly irradiance (222.21 W/m²), we can estimate the annual production per panel.
+
+### PV PANEL SIZE AND NUMBER
+
+Based on the calculations above, we recommend installing 31 panels within the given budget of $15,000 USD.
+
+*   The estimated cost per panel is approximately $483.
+*   With a total budget of $15,000, we can afford to install 31 panels (31 \* $483 = $14,953).
+*   This will provide an estimated annual production of 4,827.63 kWh, which should meet the household's energy needs.
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+Based on the estimated annual production and the household's electricity consumption, we can estimate the cost savings and payback period.
+
+*   The estimated annual savings are approximately $1,496.57.
+*   Assuming a 25-year lifespan for the solar panels, the payback period is approximately 9.92 years.
+
+### RISKS AND CAVEATS
+
+While battery storage may be advisable to mitigate risks associated with sunlight variability and consumption growth, it is not included in this recommendation due to its additional cost and complexity.
+
+*   The household's reliance on the grid during nighttime hours (63.19% of total load) suggests that a backup power source would be beneficial.
+*   However, considering the budget constraints and the estimated annual production, we recommend installing PV panels first and evaluating the need for battery storage in the future.
+
+### RECOMMENDATION
+
+Based on the data summary and knowledge passages, we recommend installing 31 commercial-grade solar panels within the given budget of $15,000 USD. This will provide an estimated annual production of 4,827.63 kWh, meeting the household's energy needs and resulting in approximately $1,496.57 in annual savings. The payback period is estimated to be around 9.92 years.
+
+### JUSTIFICATION
+
+The recommendation is based on the following key points:
+
+*   The household's electricity consumption is relatively stable throughout the year.
+*   The solar potential summary indicates that the average weekly irradiance is sufficient for commercial-grade solar panels.
+*   The estimated annual production per panel is approximately 155.73 kWh, which should meet the household's energy needs.
+*   The total budget of $15,000 allows for the installation of 31 panels within the given constraints.
+
+### CONCLUSION
+
+In conclusion, we recommend installing 31 commercial-grade solar panels to meet the household's energy needs and provide cost savings. While battery storage may be advisable in the future, it is not included in this recommendation due to its additional cost and complexity.

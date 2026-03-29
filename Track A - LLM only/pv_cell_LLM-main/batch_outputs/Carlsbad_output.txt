@@ -1,0 +1,46 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY FINDINGS AND TRENDS
+
+*   The household's annual electricity consumption is 17,533.57 kWh.
+*   The average daily consumption is 48.04 kWh, with a peak weekly max load of 4.62 kW and a 95th-percentile weekly avg load of 2.47 kW.
+*   The solar potential summary indicates an average weekly irradiance of 220.28 W/m² and estimated annual sunlight hours of 642.40 hrs.
+*   The household owns 1 EV, which adds 3,500.00 kWh to their annual electricity consumption.
+
+### PV PANEL SIZING AND FINANCIAL ANALYSIS
+
+Based on the feature-engineered data summary and knowledge base passages, we can determine the optimal number of PV panels for this household.
+
+*   To meet 100% of their energy needs, they would require 114 panels (based on an estimated annual production of 154.37 kWh per panel).
+*   However, considering their budget of $15,000 USD and the installation fixed cost of $4,000, we can calculate the maximum number of panels affordable within this budget.
+*   The total system cost at budget would be approximately $14,850 (based on a panel cost of $350 each), which allows for 43 panels (not 31 as mentioned in the EV & Budget Summary).
+*   To meet their energy needs, we recommend installing 57 panels (for 50% offset) to ensure they have sufficient power during periods of low sunlight.
+
+### EXPECTED ANNUAL PRODUCTION AND COST SAVINGS
+
+With 57 panels installed, the household can expect an annual production of approximately 8,793.51 kWh (based on an estimated annual production of 154.37 kWh per panel).
+
+*   Their total annual electricity consumption is 21,033.57 kWh (household + EV).
+*   With a 50% offset, they will save approximately $2,717.70 per year (based on an effective cost per kWh of $0.3100).
+*   The payback period would be approximately 5.04 years.
+
+### RISKS AND CAVEATS
+
+*   Sunlight variability: The household is located in San Diego, which has a relatively high level of sunlight throughout the year.
+*   Consumption growth: The household's electricity consumption has been increasing at a rate of 0.00 kW/week.
+*   Grid dependency: The household's nighttime load ratio is 63.20%, indicating a significant reliance on grid power during periods of low sunlight.
+
+### BATTERY STORAGE ADVISABILITY
+
+Based on the knowledge base passages, battery storage may be advisable for this household due to the following reasons:
+
+*   Time-of-use rates significantly impact solar payback period.
+*   Under current net billing rules, excess solar energy exported to the grid is credited at lower rates compared to older NEM policies.
+
+However, further analysis and consultation with a solar expert would be necessary to determine the optimal battery storage solution for this household.
+
+### FINAL RECOMMENDATION
+
+Based on the data summary and knowledge base passages, we recommend installing 57 PV panels (for 50% offset) within the household's budget of $15,000 USD. This will provide sufficient power during periods of low sunlight and help reduce their reliance on grid power. The expected annual production is approximately 8,793.51 kWh, resulting in cost savings of around $2,717.70 per year. The payback period would be approximately 5.04 years.
+
+Caveats include the household's reliance on grid power during periods of low sunlight and the potential benefits of battery storage to mitigate this risk. Further analysis and consultation with a solar expert are necessary to determine the optimal battery storage solution for this household.

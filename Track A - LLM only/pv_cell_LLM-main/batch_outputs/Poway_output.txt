@@ -1,0 +1,42 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase in winter months.
+*   The average weekly load is 5.25 kW, while the peak weekly max load reaches 12.17 kW.
+*   The solar potential summary indicates an average weekly irradiance of 220.74 W/m² and estimated daily peak sun hours of 1.77 hrs.
+
+### PV PANEL SIZING
+
+Based on the household's energy needs and budget constraints, we recommend installing **31 panels** within the $15,000 USD budget. This will provide a total system cost of approximately $14,850 USD.
+
+*   Estimated annual production: 4,795.39 kWh
+*   Annual savings: $1,486.57
+*   Break-even period: 9.99 years
+
+### RISKS AND CAVEATS
+
+*   The household's energy consumption is relatively stable, but there may be some growth in the future due to increased EV charging.
+*   Sunlight variability is moderate, with a coefficient of variation (CV) of 0.3264.
+*   Battery storage may not be necessary given the household's relatively stable energy needs and the availability of net metering.
+
+### RECOMMENDATION JUSTIFICATION
+
+Based on the feature-engineered data summary and knowledge base passages, we recommend installing **31 panels** within the $15,000 USD budget. This will provide a sufficient amount of electricity to meet the household's energy needs while also taking into account the additional charging load from the EV.
+
+The estimated annual production of 4,795.39 kWh will result in significant cost savings of $1,486.57 per year. The break-even period of 9.99 years is reasonable considering the system lifespan of 25-30 years.
+
+While there are some risks associated with sunlight variability and potential growth in energy consumption, battery storage may not be necessary given the household's stable energy needs and net metering availability.
+
+### KEY DECISION FACTORS
+
+*   Roof age and condition: The roof is assumed to be in good condition.
+*   Annual electricity usage (kWh per year): 45,854.36 kWh
+*   Future EV ownership: The household already owns an EV, which will increase energy consumption.
+*   Desire for backup power: Not necessary given the household's stable energy needs and net metering availability.
+*   Budget and financing method: The household has a budget of $15,000 USD for PV installation.
+*   Exposure to shading: Not mentioned in the data summary.
+
+### CONCLUSION
+
+Based on the feature-engineered data summary and knowledge base passages, we recommend installing **31 panels** within the $15,000 USD budget. This will provide a sufficient amount of electricity to meet the household's energy needs while also taking into account the additional charging load from the EV. The estimated annual production of 4,795.39 kWh will result in significant cost savings of $1,486.57 per year.

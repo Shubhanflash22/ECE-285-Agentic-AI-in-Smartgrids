@@ -1,0 +1,54 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### TASK 1: REVIEW OF FEATURE-ENGINEERED DATA SUMMARY AND KNOWLEDGE BASE PASSAGES
+
+The feature-engineered data summary provides a comprehensive overview of the household's electricity consumption, solar potential, and financial metrics. The knowledge base passages offer valuable insights into San Diego's solar market, including payback periods, financing options, and equipment costs.
+
+### TASK 2: KEY TRENDS, SEASONAL PATTERNS, AND ANOMALIES
+
+*   **Electricity Consumption:** The household consumes an average of 67.52 kWh per day, with a peak weekly max load of 6.45 kW.
+*   **Solar Potential:** The average weekly irradiance is 219.08 W/m², with an estimated annual sunlight hours of 638.80 hrs.
+*   **Seasonal Patterns:**
+    *   Summer and winter months have similar irradiance levels (1.01).
+    *   Autumn and spring months have lower irradiance levels (0.61 and 1.37, respectively).
+
+### TASK 3: FACTORING IN EV CHARGING LOAD
+
+The household owns 1 EV, which adds an estimated 3,500 kWh of annual charging load.
+
+### TASK 4: DETERMINING MAXIMUM NUMBER OF PANELS WITHIN BUDGET
+
+Based on the PV sizing analysis, the maximum number of panels affordable within the $15,000 budget is:
+
+*   **Panels for 100% offset:** 161
+*   **Panels for 70% offset:** 113
+*   **Panels for 50% offset:** 81
+
+Considering the household's energy needs and EV charging load, we will aim for a 70% offset.
+
+### TASK 5: OPTIMAL NUMBER OF PV PANELS RECOMMENDATION
+
+Based on the feature-engineered data summary and knowledge base passages, I recommend installing **113 panels** (70% offset) to meet the household's energy needs. This number is chosen because it balances the need for sufficient energy production with the constraints of the budget.
+
+### TASK 6: ESTIMATED COST SAVINGS AND PAYBACK PERIOD
+
+*   **Annual Production:** Estimated annual production from 113 panels is approximately 17,313 kWh.
+*   **Cost Savings:** The household can expect to save around $2,500 per year on electricity bills (based on the effective cost per kWh of $0.3100).
+*   **Payback Period:** With a total system cost of $24,300 (113 panels \* $215 per panel), the payback period is approximately 9.7 years.
+
+### TASK 7: RISKS AND BATTERY STORAGE
+
+*   **Sunlight Variability:** The household's solar potential is relatively consistent throughout the year, with a low sunlight volatility coefficient of 0.3254.
+*   **Consumption Growth:** The household's electricity consumption has been steadily increasing over the years (year-over-year growth rate: +5028.1%, +4.0%, -3.1%, +1.5%, +3.9%, and -91.9%).
+*   **Grid Dependency:** The household's nighttime load ratio is 63.18%, indicating a significant reliance on the grid during off-peak hours.
+*   **Battery Storage:** Considering the household's energy needs, EV charging load, and grid dependency, battery storage may be advisable to optimize energy production and reduce reliance on the grid.
+
+## FINAL RECOMMENDATION
+
+Based on the feature-engineered data summary and knowledge base passages, I recommend installing **113 PV panels** (70% offset) to meet the household's energy needs. This number balances the need for sufficient energy production with the constraints of the budget. The estimated annual production is approximately 17,313 kWh, resulting in cost savings of around $2,500 per year and a payback period of approximately 9.7 years. Battery storage may be advisable to optimize energy production and reduce reliance on the grid.
+
+**Caveats:**
+
+*   The household's solar potential is relatively consistent throughout the year.
+*   The household's electricity consumption has been steadily increasing over the years.
+*   The household's nighttime load ratio indicates a significant reliance on the grid during off-peak hours.

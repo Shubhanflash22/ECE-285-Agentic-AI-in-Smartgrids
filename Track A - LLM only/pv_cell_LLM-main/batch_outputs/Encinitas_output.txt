@@ -1,0 +1,42 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively stable throughout the year, with a slight increase during winter months.
+*   The peak weekly max load is 13.37 kW, and the 95th-percentile weekly avg load is 4.83 kW.
+*   The average daily consumption is 97.99 kWh, and the average weekly load is 4.11 kW.
+
+### PV PANEL SIZING
+
+Based on the household's electricity consumption and solar potential, we recommend installing **31 panels** within the budget of $15,000 USD. This will provide an estimated annual production of **4,712.93 kWh**, which should cover approximately **70%** of their energy needs.
+
+*   The total system cost (at budget) is $14,850.
+*   The annual savings (at budget) are estimated to be $1,461.01.
+*   The break-even period (at budget) is approximately 10.16 years.
+
+### RISKS AND CAVEATS
+
+*   **Sunlight variability**: The sunlight consistency (CV) is 0.3227, which indicates a moderate level of uncertainty in solar irradiance.
+*   **Consumption growth**: The consumption trend slope is 0.00 kW/week, indicating no significant change in electricity usage over time.
+*   **Grid dependency**: The nighttime load ratio is 73.02%, indicating that the household relies heavily on grid power during off-peak hours.
+
+### BATTERY STORAGE
+
+Given the high grid dependency and moderate sunlight variability, we recommend considering battery storage to optimize energy self-sufficiency and reduce reliance on the grid.
+
+*   Battery replacement after warranty: $8,000 to 15,000 USD
+*   SDG&E's current net billing rules make excess solar energy exported to the grid less valuable compared to older NEM policies. This makes battery storage more financially attractive than before.
+
+### EV CHARGING IMPACT
+
+The household owns 1 EV(s), which will require an additional **3,500.00 kWh** of electricity per year for charging. We have factored this into our PV panel sizing recommendation to ensure that the system can meet their energy needs.
+
+### CONCLUSION
+
+Based on the feature-engineered data summary and knowledge base passages, we recommend installing **31 panels** within the budget of $15,000 USD. This will provide an estimated annual production of **4,712.93 kWh**, covering approximately **70%** of their energy needs. We also suggest considering battery storage to optimize energy self-sufficiency and reduce reliance on the grid.
+
+### REFERENCES
+
+*   Passage 1: Payback Period in San Diego
+*   Passage 3: SDG&E Considerations
+*   Passage 5: Equipment Breakdown

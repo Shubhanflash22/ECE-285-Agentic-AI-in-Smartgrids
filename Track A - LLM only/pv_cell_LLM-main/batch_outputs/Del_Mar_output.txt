@@ -1,0 +1,51 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY TRENDS AND SEASONAL PATTERNS
+
+*   The household's electricity consumption is relatively consistent throughout the year, with a slight increase during winter months.
+*   The average daily consumption is 73.48 kWh, and the peak weekly max load is 7.34 kW.
+*   The solar potential summary indicates that the household receives an average of 216.40 W/m² of irradiance per week.
+
+### PV PANEL SIZING
+
+Considering the additional charging load from the EV(s), we need to factor in the extra energy required for charging. According to the feature-engineered data, the estimated annual production per panel is 151.65 kWh. To meet the household's energy needs, including EV charging, we recommend installing a sufficient number of panels.
+
+Given the budget constraint of $15,000 USD and an installation fixed cost of $4,000, we can estimate the maximum number of panels affordable within this budget:
+
+*   Estimated annual production per panel: 151.65 kWh
+*   Total annual energy required (household + EV): 30,320.18 kWh
+*   Required number of panels to meet energy needs: 200.5 panels (calculated by dividing total annual energy required by estimated annual production per panel)
+*   Maximum number of panels affordable within budget: 31 panels (since we cannot install a fraction of a panel)
+
+### OPTIMAL NUMBER OF PV PANELS
+
+Based on the calculations above, we recommend installing **31** PV panels to meet the household's energy needs, including EV charging. This will result in an estimated annual production of:
+
+*   4,701.15 kWh (calculated by multiplying the number of panels by estimated annual production per panel)
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+With the recommended installation of 31 PV panels, we estimate the following cost savings and payback period:
+
+*   Annual savings: $1,457.36
+*   Break-even point: 10.19 years (calculated by dividing the total system cost by annual savings)
+
+### RISKS AND CAVEATS
+
+*   Sunlight variability: The household's sunlight consistency is relatively low (CV = 0.3222), which may impact PV panel efficiency.
+*   Consumption growth: The household's electricity consumption has been increasing over the years, which may lead to underproduction during peak periods.
+*   Grid dependency: The household relies heavily on the grid for nighttime load, which may be affected by changes in net billing rules or time-of-use rates.
+
+### BATTERY STORAGE
+
+Considering the risks mentioned above, we recommend exploring battery storage options to mitigate potential underproduction and optimize energy usage. This will not only provide backup power during outages but also help stabilize the household's energy consumption patterns.
+
+**RECOMMENDATION**
+
+Based on the feature-engineered data summary and knowledge base passages, we recommend installing **31** PV panels to meet the household's energy needs, including EV charging. This will result in an estimated annual production of 4,701.15 kWh, with a projected cost savings of $1,457.36 and a break-even point of 10.19 years. We also advise exploring battery storage options to mitigate potential risks and optimize energy usage.
+
+**CAVEATS**
+
+*   The household's sunlight consistency is relatively low, which may impact PV panel efficiency.
+*   Consumption growth may lead to underproduction during peak periods.
+*   Grid dependency may be affected by changes in net billing rules or time-of-use rates.

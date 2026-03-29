@@ -1,0 +1,54 @@
+## RECOMMENDATION FOR PV PANEL INSTALLATION
+
+### KEY FINDINGS AND TRENDS
+
+*   The household consumes approximately 31,128 kWh of electricity annually.
+*   The average daily consumption is around 85.28 kWh, with a peak weekly max load of 8.16 kW and a 95th-percentile weekly avg load of 4.38 kW.
+*   The solar potential summary indicates an average weekly irradiance of 224.05 W/m² and estimated annual sunlight hours of 653.40 hrs.
+
+### PV PANEL SIZING AND FINANCIAL ANALYSIS
+
+Based on the feature-engineered data, we can estimate the optimal number of PV panels for this household:
+
+*   The recommended system size for 100% offset is 199 panels.
+*   Considering the additional charging load from the EV(s), we should aim for a slightly larger system to account for the increased energy demand.
+
+### MAXIMUM NUMBER OF PANELS WITHIN BUDGET
+
+Given the budget of $15,000 USD for PV installation:
+
+*   The estimated cost per panel is around $350.
+*   Within this budget, the maximum number of panels that can be installed is approximately 43 (=$15,000 / $350).
+
+### OPTIMAL NUMBER OF PV PANELS
+
+To determine the optimal number of PV panels, we need to balance the system size with the available budget and energy needs:
+
+*   Based on the feature-engineered data, a system size of around 31-35 panels would provide sufficient energy for the household's needs while staying within the budget.
+*   This corresponds to an estimated annual production of approximately 4,867.31 kWh.
+
+### COST SAVINGS AND PAYBACK PERIOD
+
+Assuming an average electricity cost of $0.3100 per kWh and considering the additional charging load from the EV(s):
+
+*   The estimated annual savings would be around $1,508.87.
+*   Based on these estimates, the payback period for a 31-35 panel system would be approximately 9.84 years.
+
+### RISKS AND CAVEATS
+
+*   Sunlight variability and consumption growth may impact the system's performance and energy production.
+*   Battery storage could be advisable to mitigate these risks and provide backup power during periods of low sunlight or high energy demand.
+
+## RECOMMENDATION
+
+Based on the analysis, we recommend installing a 31-35 panel PV system with an estimated annual production of approximately 4,867.31 kWh. This system should provide sufficient energy for the household's needs while staying within the budget and offering a payback period of around 9.84 years.
+
+**Key Takeaways:**
+
+*   Optimal number of PV panels: 31-35
+*   Estimated annual production: 4,867.31 kWh
+*   Cost savings: $1,508.87 per year
+*   Payback period: approximately 9.84 years
+*   Battery storage may be advisable to mitigate risks and provide backup power.
+
+This recommendation is based on the feature-engineered data summary and knowledge base passages provided.
